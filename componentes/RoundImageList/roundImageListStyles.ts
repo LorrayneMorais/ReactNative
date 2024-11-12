@@ -18,6 +18,6 @@ export const roundImageListStyles = StyleSheet.create({
     imageLabel: {
         textAlign: 'center',
         marginTop: 5,
-        fontSize: 7,
+        fontSize: 5,
     },
 });
