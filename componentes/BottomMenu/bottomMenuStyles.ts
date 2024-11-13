@@ -7,8 +7,9 @@ export const bottomMenuStyles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'space-between',
         backgroundColor: '#fff',
-        paddingVertical: 10,
+
         paddingHorizontal: 20,
+        marginBottom: 10,
     },
     menuItem: {
         alignItems: 'center',

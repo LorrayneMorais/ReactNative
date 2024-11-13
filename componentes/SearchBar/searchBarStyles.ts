@@ -2,13 +2,13 @@
 import { StyleSheet } from 'react-native';
 
 export const searchBarStyles = StyleSheet.create({
-    // Container barra de pesquisa e os ícones
+    // Container da barra de pesquisa e os ícones
     searchContainer: {
         flexDirection: 'row',
         alignItems: 'center',
         paddingHorizontal: 10,
-        marginTop: 40,
-        marginBottom: 10,
+        marginTop: 20,
+        paddingVertical: 5,
         backgroundColor: '#FFFFFF1A',
     },
 
@@ -22,7 +22,8 @@ export const searchBarStyles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         backgroundColor: '#f0f0f0',
-        padding: 5,
+        paddingHorizontal: 5,
+        paddingVertical: 3,
         flex: 1,
         borderRadius: 5,
     },
@@ -33,7 +34,7 @@ export const searchBarStyles = StyleSheet.create({
         marginLeft: 5,
     },
 
-    // Estilo os ícones dentro da barra de pesquisa
+    // Estilo dos ícones dentro da barra de pesquisa
     iconTransparent: {
         padding: 5,
     },
