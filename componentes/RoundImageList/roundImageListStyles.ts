@@ -10,14 +10,15 @@ export const roundImageListStyles = StyleSheet.create({
         backgroundColor: '#f0f0f0',
     },
     roundImage: {
-        width: 80,
-        height: 80,
-        borderRadius: 30,
+        width: 50,
+        height: 50,
+        borderRadius: 45,
         margin: 5,
     },
     imageLabel: {
         textAlign: 'center',
         marginTop: 5,
-        fontSize: 5,
+        fontSize: 10,
+        width: 90,
     },
 });
